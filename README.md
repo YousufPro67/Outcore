@@ -1,75 +1,46 @@
-# Outcore — Issues & Suggestions Hub
+# Outcore — Bug Reports & Suggestions
 
-**This repository is the official place to report bugs, request features, and suggest improvements for the Outcore game.**
+This repository is dedicated solely to collecting **bug reports** and **feature suggestions** for the Outcore Roblox game.
 
-> Use this repo only for actionable bug reports, reproducible issues, and clear feature suggestions. General discussion and off-topic content will be redirected.
-
----
-
-## How to file a **Bug Report**
-
-1. Click **New issue** → choose **Bug report** (we created a template for you).
-2. Fill these required sections:
-   - **Title**: one-line summary (include platform e.g. `PC`, `Android`, `Roblox Studio`).
-   - **Steps to reproduce** (exact steps you performed).
-   - **Expected result** (what should have happened).
-   - **Actual result** (what happened instead).
-   - **Reproduction rate** (always/sometimes/rare).
-   - **Version / Build / Date** (game version or commit hash if known).
-   - **Attachments**: screenshots, log files, short video, and the minimal reproduction if possible.
-
-A good bug report = faster fix.
+> This repo is NOT for code, pull requests, or general discussion. Code changes belong in the main game repository — please open PRs ther. Issues here should be actionable reports or clear suggestions only.
 
 ---
 
-## How to submit a **Suggestion / Feature Request**
+## How to file a Bug Report
 
-1. Click **New issue** → choose **Feature request**.
+1. Click **New issue** → choose **Bug report** (use the Bug template).
+2. Required information:
+   - **Title** — short summary. Include platform: `Roblox Studio`, `PC (Client)`, `Mobile (Android/iOS)`.
+   - **Place / Version / Date** — place ID, game version, or approximate date/time.
+   - **Steps to reproduce** — exact steps you did (numbered).
+   - **Expected behavior** — what should have happened.
+   - **Actual behavior** — what actually happened.
+   - **Frequency** — always / sometimes / once.
+   - **Attachments** — screenshots, short video, error messages, output from the developer console (Client/Server logs), and a minimal reproduction if possible.
+
+A good bug report = faster investigation and fix.
+
+---
+
+## How to submit a Suggestion / Feature Request
+
+1. Click **New issue** → choose **Feature request** (use the Feature template).
 2. Include:
-   - **Problem** the feature solves.
-   - **Proposed solution** or mockup.
-   - **Why it's important** and **how it affects gameplay**.
-   - Any **alternatives** and **backwards-compat** concerns.
+   - **Summary** — short description.
+   - **Why** this helps the game or players.
+   - **Suggested implementation** (optional) and any UX mockups or examples.
+   - **Impact** — who it helps / balance considerations.
 
 ---
 
-## Templates & Labels
-
-We provide standardized templates so issues are consistent. Templates will add initial labels (e.g. `bug`, `feature`, `needs-triage`) automatically.
-
-Recommended labels we use:
-- `bug` — Confirmed bug.
-- `feature` — New feature request.
-- `needs-triage` — Waiting triage.
-- `duplicate` — Duplicate of another issue.
-- `invalid` — Not actionable / not a bug.
-- `help wanted` — We welcome PRs.
-- `critical`, `high`, `medium`, `low` — Priority.
-
-(See `.github/ISSUE_TEMPLATE/` and `.github/labels.md` for details.)
+## What we will do (short)
+- We will read reports and suggestions here. If a report requires a code change, maintainers will reference or create an issue in the main game repo and close or link the issue here.
 
 ---
 
-## Triage & Response
-
-- New issues are given `needs-triage` automatically.
-- Triage steps:
-  1. Confirm reproducible steps or ask for more info.
-  2. Add labels: `bug` / `feature` / `duplicate` / `invalid`.
-  3. Assign priority and assignee (if appropriate).
-- If an issue lacks critical info, maintainers will request more details. If a reporter does not respond after one week, we may close the issue as `invalid` or `needs-more-info`.
-
-
-## Code of Conduct
-
-Be respectful. No harassment. Follow the repo’s Code of Conduct (`CODE_OF_CONDUCT.md`).
+## Security / Sensitive reports
+For security-sensitive issues (exploits, account theft, private data leaks), do not post public details. Message on Discord: `YousufPro67` or Devforum: `nix102on` instead.
 
 ---
 
-## Contact
-
-If you need contact, discord user: `YousufPro67`, devforum user: `nix102on`.
-
----
-
-Thank you — clear, concise reports help me fix the game faster ❤️
+Thank you — clear reports and suggestions help Outcore improve. ❤️
